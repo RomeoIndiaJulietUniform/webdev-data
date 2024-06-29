@@ -21,7 +21,7 @@ plt.figure(figsize=(10, 6))
 for i, term in enumerate(search_terms):
     plt.plot(data[term], label=term, color=colors[i])
 
-plt.title('Realtime Automated in Development Technologies over Time')
+plt.title('Realtime Automated Development Technologies graph over Time')
 plt.xlabel('Year')
 plt.ylabel('Interest')
 plt.legend()
